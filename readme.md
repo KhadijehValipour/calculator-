@@ -14,7 +14,4 @@ pip install -r requirements.txt
 python calculator_1.ui
 ```
 
-![alt text](assents/Calculator.PNG)
-
-
-<video controls src="assents/output_C.mov" title="Title"></video>
+![alt text](assents/Calculator.PNG)![alt text](assents/Calculator_2.PNG)
