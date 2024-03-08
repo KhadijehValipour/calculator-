@@ -17,4 +17,4 @@ python calculator_1.ui
 ![alt text](assents/Calculator.PNG)
 
 
-<video controls src="assents/output_C.mp4" title="Title"></video>
+<video controls src="assents/output_C.mov" title="Title"></video>
