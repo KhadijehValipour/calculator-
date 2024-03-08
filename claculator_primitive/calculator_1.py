@@ -7,6 +7,7 @@ def sub():
     a = int(calculator_window.txtbox.text())
     calculator_window.txtbox.setText("")
 
+
 def result():
     b = int(calculator_window.txtbox.text())
     c = a - b
@@ -17,7 +18,7 @@ app = QApplication([])
 
 loader = QUiLoader()
 
-calculator_window = loader.load("claculator\calculator_1.ui")
+calculator_window = loader.load("calculator-\claculator\calculator_1.ui")
 calculator_window.show()
 
 

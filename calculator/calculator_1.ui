@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>242</width>
-    <height>354</height>
+    <width>245</width>
+    <height>359</height>
    </rect>
   </property>
   <property name="font">
@@ -33,15 +33,16 @@ border-left-color: rgb(170, 0, 127);</string>
    <widget class="QLineEdit" name="txtbox">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>10</x>
       <y>20</y>
-      <width>241</width>
+      <width>231</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>40</pointsize>
+      <family>Segoe Print</family>
+      <pointsize>28</pointsize>
       <bold>true</bold>
      </font>
     </property>
@@ -49,7 +50,7 @@ border-left-color: rgb(170, 0, 127);</string>
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string/>
+     <string>0</string>
     </property>
     <property name="readOnly">
      <bool>false</bool>
@@ -59,9 +60,9 @@ border-left-color: rgb(170, 0, 127);</string>
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>290</y>
+      <y>240</y>
       <width>41</width>
-      <height>41</height>
+      <height>91</height>
      </rect>
     </property>
     <property name="font">
@@ -101,7 +102,7 @@ color: rgb(0, 0, 0);</string>
      <string>6</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_float">
+   <widget class="QPushButton" name="btn_decimal">
     <property name="geometry">
      <rect>
       <x>130</x>
@@ -239,10 +240,10 @@ color: rgb(0, 0, 0);</string>
      <string>7</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_division">
+   <widget class="QPushButton" name="btn_div">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>130</x>
       <y>90</y>
       <width>41</width>
       <height>41</height>
@@ -262,11 +263,11 @@ color: rgb(0, 0, 127);</string>
      <string>/</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_multiplication">
+   <widget class="QPushButton" name="btn_multi">
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>140</y>
+      <y>90</y>
       <width>41</width>
       <height>41</height>
      </rect>
@@ -285,10 +286,10 @@ color: rgb(0, 0, 127);</string>
      <string>*</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_del">
+   <widget class="QPushButton" name="btn_clear">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>30</x>
       <y>90</y>
       <width>41</width>
       <height>41</height>
@@ -301,11 +302,11 @@ color: rgb(0, 0, 127);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(128, 196, 255);
+     <string notr="true">background-color: rgb(60, 135, 255);
 color: rgb(0, 0, 127);</string>
     </property>
     <property name="text">
-     <string>DEL</string>
+     <string>AC</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btn_percent">
@@ -329,29 +330,6 @@ color: rgb(0, 0, 127);</string>
     </property>
     <property name="text">
      <string>%</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="btn_c">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>90</y>
-      <width>41</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>16</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(60, 135, 255);
-color: rgb(0, 0, 127);</string>
-    </property>
-    <property name="text">
-     <string>C</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btn_num_5">
@@ -473,7 +451,7 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>240</y>
+      <y>190</y>
       <width>41</width>
       <height>41</height>
      </rect>
@@ -496,7 +474,7 @@ color: rgb(0, 0, 127);</string>
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>190</y>
+      <y>140</y>
       <width>41</width>
       <height>41</height>
      </rect>
