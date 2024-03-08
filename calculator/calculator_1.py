@@ -41,7 +41,7 @@ class MainWindow(QMainWindow):
         self.ui.btn_num_7.clicked.connect(partial(self.Write_num_txtbox, 7))
         self.ui.btn_num_8.clicked.connect(partial(self.Write_num_txtbox, 8))
         self.ui.btn_num_9.clicked.connect(partial(self.Write_num_txtbox, 9))
-        self.ui.btn_num_00.clicked.connect(partial(self.Write_num_txtbox, 0))
+        self.ui.btn_num_00.clicked.connect(partial(self.Write_num_txtbox, '00'))
         self.ui.btn_decimal.clicked.connect(partial(self.Write_num_txtbox, '.'))
 
 
@@ -52,7 +52,12 @@ class MainWindow(QMainWindow):
         
         if self.ui.txtbox.text() != str(0):
             self.ui.txtbox.setText(self.ui.txtbox.text() + str(number)) 
-  
+
+        elif self.ui.txtbox.text() == str(0):
+            self.ui.txtbox.setText(str(number))    
+
+        elif self.ui.txtbox.text() == str(00):
+            self.ui.txtbox.setText(str(number+number))
 
         else:
             self.ui.txtbox.setText(str(number)) # نوع خروجی فرق میکن برای اینکه نمایش داده شود حتما باید استرینگ شود
